@@ -9,10 +9,6 @@
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/app" />
-            <option value="$PROJECT_DIR$/appMovieGuide" />
-            <option value="$PROJECT_DIR$/appmvp" />
-            <option value="$PROJECT_DIR$/mobile" />
-            <option value="$PROJECT_DIR$/wear" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />

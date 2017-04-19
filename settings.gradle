@@ -1,1 +1,1 @@
-include ':app', ':appMovieGuide', ':appmvp', ':wear', ':mobile'
+include ':app'
