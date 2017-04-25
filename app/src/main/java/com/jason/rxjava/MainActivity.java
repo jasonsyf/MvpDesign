@@ -87,14 +87,11 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void changeView() {
-        Observable.create(new ObservableOnSubscribe<String>() {
-            @Override
-            public void subscribe(ObservableEmitter<String> e) throws Exception {
-                for (int i = 0; i < 5; i++) {
-                    e.onNext(i + "");
-                }
-                e.onComplete();
+        Observable.create((ObservableOnSubscribe<String>) e -> {
+            for (int i = 0; i < 5; i++) {
+                e.onNext(i + "");
             }
+            e.onComplete();
         }).subscribeOn(Schedulers.newThread())
                 .observeOn(AndroidSchedulers.mainThread())
                 .subscribe(new Observer<String>() {
