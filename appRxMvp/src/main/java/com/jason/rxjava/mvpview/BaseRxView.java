@@ -5,5 +5,7 @@ package com.jason.rxjava.mvpview;
  * Email: jason_sunyf@163.com
  */
 
-public interface BaseRxView {
+public interface BaseRxView<T> {
+    void setPresenter(T presenter);
+
 }
