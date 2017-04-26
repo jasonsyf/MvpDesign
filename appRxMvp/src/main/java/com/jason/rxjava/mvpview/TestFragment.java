@@ -66,9 +66,6 @@ public class TestFragment extends Fragment implements TestRxContract.View {
     public void onResume() {
         super.onResume();
         mPresenter.subscribe();
-        new Handler().post(() -> {
-        });
-
     }
 
     @Override
