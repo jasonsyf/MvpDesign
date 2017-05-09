@@ -1,6 +1,8 @@
 apply plugin: 'com.android.application'
 apply plugin: 'android-apt'
 apply plugin: 'me.tatarka.retrolambda'
+//apply tinker插件
+apply plugin: 'com.tencent.tinker.patch'
 android {
     compileSdkVersion 25
     buildToolsVersion "25.0.1"
@@ -40,4 +42,8 @@ dependencies {
     testCompile 'junit:junit:4.12'
     compile 'com.squareup.retrofit2:retrofit:2.2.0'
     compile 'com.squareup.okhttp3:logging-interceptor:3.1.2'
+    //可选，用于生成application类
+    provided('com.tencent.tinker:tinker-android-anno:1.7.9')
+    //tinker的核心库
+    compile('com.tencent.tinker:tinker-android-lib:1.7.9')
 }
