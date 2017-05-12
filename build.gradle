@@ -14,9 +14,15 @@ buildscript {
     }
 }
 
+
 allprojects {
     repositories {
+        mavenLocal()
         jcenter()
+    }
+    tasks.withType(Javadoc).all {
+        enabled = false
+        options.setEncoding('UTF-8')
     }
 }
 

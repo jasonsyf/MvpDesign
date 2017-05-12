@@ -1,0 +1,76 @@
+-- Merging decision tree log ---
+manifest
+ADDED from D:\workspace\MvpDesign\appRxMvp\src\main\AndroidManifest.xml:2:1-20:12
+	package
+		ADDED from D:\workspace\MvpDesign\appRxMvp\src\main\AndroidManifest.xml:3:11-44
+		INJECTED from D:\workspace\MvpDesign\appRxMvp\src\main\AndroidManifest.xml
+		INJECTED from D:\workspace\MvpDesign\appRxMvp\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from D:\workspace\MvpDesign\appRxMvp\src\main\AndroidManifest.xml
+		INJECTED from D:\workspace\MvpDesign\appRxMvp\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from D:\workspace\MvpDesign\appRxMvp\src\main\AndroidManifest.xml:2:11-69
+	android:versionCode
+		INJECTED from D:\workspace\MvpDesign\appRxMvp\src\main\AndroidManifest.xml
+		INJECTED from D:\workspace\MvpDesign\appRxMvp\src\main\AndroidManifest.xml
+application
+ADDED from D:\workspace\MvpDesign\appRxMvp\src\main\AndroidManifest.xml:5:5-18:19
+MERGED from [com.android.support:appcompat-v7:25.1.1] C:\Users\jason\.android\build-cache\67893caa6a7082586be0ea8bf085c5c8cdc7880c\output\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:animated-vector-drawable:25.1.1] C:\Users\jason\.android\build-cache\1573f8f2bf0aec1c69300d591ad08abb2057fad7\output\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-vector-drawable:25.1.1] C:\Users\jason\.android\build-cache\dde0779381ad71cf7f737af81cadc7f777bfb6af\output\AndroidManifest.xml:23:5-20
+MERGED from [com.pnikosis:materialish-progress:1.7] C:\Users\jason\.android\build-cache\f5845b4b1552d287b4133fd1de41ab031af32ea2\output\AndroidManifest.xml:11:5-20
+MERGED from [com.android.support:support-v4:25.1.1] C:\Users\jason\.android\build-cache\559238c8197592696680c6aef676da50f109a0ce\output\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-fragment:25.1.1] C:\Users\jason\.android\build-cache\19f099c1b02dd040362dd430cdc3ab0cce0c4fe0\output\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-media-compat:25.1.1] C:\Users\jason\.android\build-cache\664b3a7e85af98ff011b1a79af1c0327c2d0329a\output\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-ui:25.1.1] C:\Users\jason\.android\build-cache\f1ec8499f177a57a5ea4a85dfd844b6378267e08\output\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-utils:25.1.1] C:\Users\jason\.android\build-cache\e945fc35d8cd1244a29e3dc2e0c875f364cd53cc\output\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-compat:25.1.1] C:\Users\jason\.android\build-cache\959971c21c5a32444e803f584ff4124665aeef7d\output\AndroidManifest.xml:25:5-20
+	android:label
+		ADDED from D:\workspace\MvpDesign\appRxMvp\src\main\AndroidManifest.xml:8:9-41
+	android:supportsRtl
+		ADDED from D:\workspace\MvpDesign\appRxMvp\src\main\AndroidManifest.xml:10:9-35
+	android:allowBackup
+		ADDED from D:\workspace\MvpDesign\appRxMvp\src\main\AndroidManifest.xml:6:9-35
+	android:icon
+		ADDED from D:\workspace\MvpDesign\appRxMvp\src\main\AndroidManifest.xml:7:9-43
+	android:theme
+		ADDED from D:\workspace\MvpDesign\appRxMvp\src\main\AndroidManifest.xml:11:9-40
+	android:name
+		ADDED from D:\workspace\MvpDesign\appRxMvp\src\main\AndroidManifest.xml:9:9-54
+activity#com.jason.rxjava.MainActivity
+ADDED from D:\workspace\MvpDesign\appRxMvp\src\main\AndroidManifest.xml:12:9-17:20
+	android:name
+		ADDED from D:\workspace\MvpDesign\appRxMvp\src\main\AndroidManifest.xml:12:19-63
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from D:\workspace\MvpDesign\appRxMvp\src\main\AndroidManifest.xml:13:13-16:29
+action#android.intent.action.MAIN
+ADDED from D:\workspace\MvpDesign\appRxMvp\src\main\AndroidManifest.xml:14:17-68
+	android:name
+		ADDED from D:\workspace\MvpDesign\appRxMvp\src\main\AndroidManifest.xml:14:25-66
+category#android.intent.category.LAUNCHER
+ADDED from D:\workspace\MvpDesign\appRxMvp\src\main\AndroidManifest.xml:15:17-76
+	android:name
+		ADDED from D:\workspace\MvpDesign\appRxMvp\src\main\AndroidManifest.xml:15:27-74
+uses-sdk
+INJECTED from D:\workspace\MvpDesign\appRxMvp\src\main\AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [com.android.support:appcompat-v7:25.1.1] C:\Users\jason\.android\build-cache\67893caa6a7082586be0ea8bf085c5c8cdc7880c\output\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:animated-vector-drawable:25.1.1] C:\Users\jason\.android\build-cache\1573f8f2bf0aec1c69300d591ad08abb2057fad7\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:25.1.1] C:\Users\jason\.android\build-cache\dde0779381ad71cf7f737af81cadc7f777bfb6af\output\AndroidManifest.xml:21:5-43
+MERGED from [io.reactivex.rxjava2:rxandroid:2.0.1] C:\Users\jason\.android\build-cache\68b42317d85308b99a36fcf683a3f06d0efe7b23\output\AndroidManifest.xml:19:5-43
+MERGED from [com.jakewharton:butterknife:8.5.1] C:\Users\jason\.android\build-cache\1630a5e211998e7b306e1d0828b097f438964fdc\output\AndroidManifest.xml:5:5-43
+MERGED from [com.android.support:recyclerview-v7:25.1.1] C:\Users\jason\.android\build-cache\a0ed33471479d9e93cc18f377c74f090862671ec\output\AndroidManifest.xml:20:5-43
+MERGED from [com.pnikosis:materialish-progress:1.7] C:\Users\jason\.android\build-cache\f5845b4b1552d287b4133fd1de41ab031af32ea2\output\AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:support-v4:25.1.1] C:\Users\jason\.android\build-cache\559238c8197592696680c6aef676da50f109a0ce\output\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-fragment:25.1.1] C:\Users\jason\.android\build-cache\19f099c1b02dd040362dd430cdc3ab0cce0c4fe0\output\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-media-compat:25.1.1] C:\Users\jason\.android\build-cache\664b3a7e85af98ff011b1a79af1c0327c2d0329a\output\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-ui:25.1.1] C:\Users\jason\.android\build-cache\f1ec8499f177a57a5ea4a85dfd844b6378267e08\output\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-utils:25.1.1] C:\Users\jason\.android\build-cache\e945fc35d8cd1244a29e3dc2e0c875f364cd53cc\output\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-compat:25.1.1] C:\Users\jason\.android\build-cache\959971c21c5a32444e803f584ff4124665aeef7d\output\AndroidManifest.xml:21:5-23:58
+	tools:overrideLibrary
+		ADDED from [com.android.support:appcompat-v7:25.1.1] C:\Users\jason\.android\build-cache\67893caa6a7082586be0ea8bf085c5c8cdc7880c\output\AndroidManifest.xml:23:9-75
+	android:targetSdkVersion
+		INJECTED from D:\workspace\MvpDesign\appRxMvp\src\main\AndroidManifest.xml
+		INJECTED from D:\workspace\MvpDesign\appRxMvp\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from D:\workspace\MvpDesign\appRxMvp\src\main\AndroidManifest.xml
+		INJECTED from D:\workspace\MvpDesign\appRxMvp\src\main\AndroidManifest.xml

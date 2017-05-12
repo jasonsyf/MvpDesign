@@ -5,6 +5,7 @@ import android.content.Context;
 
 import com.jason.rxjava.logger.LogLevel;
 import com.jason.rxjava.logger.Logger;
+import com.jason.appTestTinker.BuildConfig;
 
 /**
  * Created by jason_syf on 2017/2/20.

@@ -6,9 +6,8 @@ import android.support.annotation.NonNull;
 import com.jason.rxjava.mvpcontract.TestRxContract;
 import com.jason.rxjava.mvpmodel.TestModel;
 
-import org.reactivestreams.Subscription;
-
 import io.reactivex.disposables.CompositeDisposable;
+
 
 /**
  * Created by jason_syf on 2017/2/23.

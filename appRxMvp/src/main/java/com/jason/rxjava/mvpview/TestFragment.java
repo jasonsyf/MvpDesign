@@ -2,7 +2,6 @@ package com.jason.rxjava.mvpview;
 
 
 import android.os.Bundle;
-import android.os.Handler;
 import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
@@ -13,12 +12,12 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.jason.rxjava.adapter.BaseViewHolder;
-import com.jason.rxjava.adapter.CommonAdapter;
-import com.jason.rxjava.R;
 import com.jason.rxjava.logger.Logger;
-import com.jason.rxjava.mvpcontract.TestRxContract;
 import com.jason.rxjava.mvpmodel.TestModel;
 import com.jason.rxjava.mvppresenter.TestRxPresenter;
+import com.jason.rxjava.adapter.CommonAdapter;
+import com.jason.appTestTinker.R;
+import com.jason.rxjava.mvpcontract.TestRxContract;
 import com.pnikosis.materialishprogress.ProgressWheel;
 
 import java.util.ArrayList;

@@ -9,7 +9,7 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="com.jason.rxjava.MainActivity">
+    tools:context="com.jason.appTestTinker.MainActivity">
 
     <android.support.v4.widget.SwipeRefreshLayout
         android:id="@+id/swipe_layout"
@@ -20,7 +20,7 @@
            android:id="@+id/change_tv"
            android:layout_width="match_parent"
            android:layout_height="wrap_content"
-           android:text="change"/>
+           android:text="change  +++ tinker又一次添加了tinker++++++"/>
 
     </android.support.v4.widget.SwipeRefreshLayout>
     <Button
