@@ -20,7 +20,7 @@
            android:id="@+id/change_tv"
            android:layout_width="match_parent"
            android:layout_height="wrap_content"
-           android:text="change  +++ tinker又一次添加了tinker++++++"/>
+           android:text="change"/>
 
     </android.support.v4.widget.SwipeRefreshLayout>
     <Button

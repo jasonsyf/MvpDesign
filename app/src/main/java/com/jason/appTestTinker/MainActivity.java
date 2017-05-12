@@ -64,7 +64,7 @@ public class MainActivity extends AppCompatActivity {
                 mChangeTv.setText("正在刷新");
                 mSwipeLayout.setRefreshing(true);
                 new Handler().postDelayed(() -> {
-                    mChangeTv.setText("我是刷新后的数据,添加了tinker，又一次添加了tinker++++++");
+                    mChangeTv.setText("我是刷新后的数据");
                     Toast.makeText(MainActivity.this, "热更完成", Toast.LENGTH_SHORT).show();
                     mSwipeLayout.setRefreshing(false);
                 }, 6000);

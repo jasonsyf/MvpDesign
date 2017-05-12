@@ -1,6 +1,6 @@
 # MvpDesign
 这是一篇关于Mvp设计模式的demo
-## 基本MVP模式
+## 基本MVP模式 （基础上添加了微信Tinker热更新的测试demo）
 ### model
  TestModel
 ### presenter
@@ -9,6 +9,7 @@
  TestPresenter
 ### view
 BaseView
+### 热更  后续会完善集成过程中遇到的很多坑
 
 TestFragment
 
