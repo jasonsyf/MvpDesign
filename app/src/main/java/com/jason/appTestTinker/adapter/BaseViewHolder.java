@@ -14,8 +14,10 @@ import android.widget.TextView;
 
 
 /**
- * Created by 太能 on 2016/11/10.
+ * Created by jason_syf on 2017/2/22.
+ * Email: jason_sunyf@163.com
  */
+
 public class BaseViewHolder implements View.OnClickListener {
     private SparseArray<View> mSparseArray = new SparseArray<>();
 

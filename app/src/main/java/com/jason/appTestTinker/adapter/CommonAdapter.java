@@ -11,8 +11,10 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * Created by 太能 on 2016/11/10.
+ * Created by jason_syf on 2017/2/22.
+ * Email: jason_sunyf@163.com
  */
+
 public abstract class CommonAdapter<T> extends BaseAdapter implements OnClickBack {
     private List<T> mData = new ArrayList<>();
     private LayoutInflater mInflater;

@@ -58,17 +58,14 @@ public class MainActivity extends AppCompatActivity {
             Logger.init(getClass().getSimpleName()).setLogLevel(LogLevel.NONE).hideThreadInfo();
         }
         mSwipeLayout.setColorSchemeColors(Color.RED, Color.BLUE);
-        mSwipeLayout.setOnRefreshListener(new SwipeRefreshLayout.OnRefreshListener() {
-            @Override
-            public void onRefresh() {
-                mChangeTv.setText("正在刷新");
-                mSwipeLayout.setRefreshing(true);
-                new Handler().postDelayed(() -> {
-                    mChangeTv.setText("我是刷新后的数据");
-                    Toast.makeText(MainActivity.this, "热更完成", Toast.LENGTH_SHORT).show();
-                    mSwipeLayout.setRefreshing(false);
-                }, 6000);
-            }
+        mSwipeLayout.setOnRefreshListener(() -> {
+            mChangeTv.setText("正在刷新");
+            mSwipeLayout.setRefreshing(true);
+            new Handler().postDelayed(() -> {
+                mChangeTv.setText("我是刷新后的数据");
+                Toast.makeText(MainActivity.this, "热更完成", Toast.LENGTH_SHORT).show();
+                mSwipeLayout.setRefreshing(false);
+            }, 6000);
         });
     }
 
