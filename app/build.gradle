@@ -274,7 +274,7 @@ if (buildWithTinker()) {
                     "com.tencent.tinker.loader.*",
                     "com.tencent.tinker.*",
                     "com.jason.appTestTinker.app.MyApplication",
-                    "com.jason.appTestTinker.app.BaseBuildInfo"
+                    "BaseBuildInfo"
             ]
         }
 

@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.jason.appTestTinker.Log;
+package com.jason.appTestTinker.Tinker.Log;
 
 import android.util.Log;
 

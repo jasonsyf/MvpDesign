@@ -14,14 +14,14 @@
  * limitations under the License.
  */
 
-package com.jason.appTestTinker.reporter;
+package com.jason.appTestTinker.Tinker.reporter;
 
 import android.app.ActivityManager;
 import android.content.Context;
 import android.content.SharedPreferences;
 
-import com.jason.appTestTinker.app.BuildInfo;
-import com.jason.appTestTinker.crash.SampleUncaughtExceptionHandler;
+import com.jason.appTestTinker.Tinker.app.BuildInfo;
+import com.jason.appTestTinker.Tinker.crash.SampleUncaughtExceptionHandler;
 import com.jason.appTestTinker.utils.Utils;
 import com.tencent.tinker.lib.listener.DefaultPatchListener;
 import com.tencent.tinker.lib.tinker.Tinker;

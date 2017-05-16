@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.jason.appTestTinker.app;
+package com.jason.appTestTinker.Tinker.app;
 
 import android.annotation.TargetApi;
 import android.app.Application;
@@ -24,7 +24,7 @@ import android.os.Build;
 import android.support.multidex.MultiDex;
 
 import com.jason.appTestTinker.BuildConfig;
-import com.jason.appTestTinker.Log.MyLogImp;
+import com.jason.appTestTinker.Tinker.Log.MyLogImp;
 import com.jason.appTestTinker.logger.LogLevel;
 import com.jason.appTestTinker.logger.Logger;
 import com.jason.appTestTinker.utils.SampleApplicationContext;

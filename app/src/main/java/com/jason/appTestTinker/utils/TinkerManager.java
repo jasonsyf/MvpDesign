@@ -16,11 +16,11 @@
 
 package com.jason.appTestTinker.utils;
 
-import com.jason.appTestTinker.crash.SampleUncaughtExceptionHandler;
-import com.jason.appTestTinker.reporter.SampleLoadReporter;
-import com.jason.appTestTinker.reporter.SamplePatchListener;
-import com.jason.appTestTinker.reporter.SamplePatchReporter;
-import com.jason.appTestTinker.service.SampleResultService;
+import com.jason.appTestTinker.Tinker.crash.SampleUncaughtExceptionHandler;
+import com.jason.appTestTinker.Tinker.reporter.SampleLoadReporter;
+import com.jason.appTestTinker.Tinker.reporter.SamplePatchListener;
+import com.jason.appTestTinker.Tinker.reporter.SamplePatchReporter;
+import com.jason.appTestTinker.Tinker.service.SampleResultService;
 import com.tencent.tinker.lib.listener.PatchListener;
 import com.tencent.tinker.lib.patch.AbstractPatch;
 import com.tencent.tinker.lib.patch.UpgradePatch;

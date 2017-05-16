@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.jason.appTestTinker.app;
+package com.jason.appTestTinker.Tinker.app;
 
 
 import com.jason.appTestTinker.BuildConfig;

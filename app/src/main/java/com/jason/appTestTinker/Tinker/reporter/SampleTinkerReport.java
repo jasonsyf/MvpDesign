@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.jason.appTestTinker.reporter;
+package com.jason.appTestTinker.Tinker.reporter;
 
 import com.jason.appTestTinker.utils.Utils;
 import com.tencent.tinker.lib.util.TinkerLog;

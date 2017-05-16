@@ -14,13 +14,13 @@
  * limitations under the License.
  */
 
-package com.jason.appTestTinker.crash;
+package com.jason.appTestTinker.Tinker.crash;
 
 import android.content.Context;
 import android.content.SharedPreferences;
 import android.os.SystemClock;
 
-import com.jason.appTestTinker.reporter.SampleTinkerReport;
+import com.jason.appTestTinker.Tinker.reporter.SampleTinkerReport;
 import com.jason.appTestTinker.utils.TinkerManager;
 import com.jason.appTestTinker.utils.Utils;
 import com.tencent.tinker.lib.tinker.TinkerApplicationHelper;

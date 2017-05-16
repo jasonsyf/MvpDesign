@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.jason.appTestTinker.reporter;
+package com.jason.appTestTinker.Tinker.reporter;
 
 import android.content.Context;
 import android.content.Intent;
